@@ -1,0 +1,22 @@
+﻿@model IEnumerable<OdeToRes.Data.Models.Restaurant>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@{ foreach (var items in Model)
+    {
+        @Html.Partial("_RenderDetails", items);
+    }
+}
+
+
+
+

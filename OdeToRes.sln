@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToRes.Web", "OdeToRes.Web\OdeToRes.Web.csproj", "{ADBE4607-8B78-4C16-989E-7D061D8CDE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToRes.Data", "OdeToRes.Data\OdeToRes.Data.csproj", "{6A12929C-9817-4C1C-9323-47BC48E6CEAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADBE4607-8B78-4C16-989E-7D061D8CDE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBE4607-8B78-4C16-989E-7D061D8CDE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBE4607-8B78-4C16-989E-7D061D8CDE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBE4607-8B78-4C16-989E-7D061D8CDE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A12929C-9817-4C1C-9323-47BC48E6CEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A12929C-9817-4C1C-9323-47BC48E6CEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A12929C-9817-4C1C-9323-47BC48E6CEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A12929C-9817-4C1C-9323-47BC48E6CEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5604EA2C-15C5-4508-A83B-D418331AF970}
+	EndGlobalSection
+EndGlobal
