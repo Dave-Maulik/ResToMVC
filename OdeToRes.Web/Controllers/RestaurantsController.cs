@@ -67,6 +67,7 @@ namespace OdeToRes.Web.Controllers
             if (ModelState.IsValid)
             {
                 db.Update(restaurant);
+                TempData["Message"] = "You Sucessfully Updated the Record";
                 return RedirectToAction("Details", new { id = restaurant.Id});
             }
             return View();
